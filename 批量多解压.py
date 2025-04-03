@@ -2,7 +2,7 @@ import os
 import zipfile
 
 def compress_files_to_zips(input_folder, output_folder, max_size_mb):
-    """将文件夹中的所有文件分别压缩成多个max_size_mb大小的zip文件。"""
+    """将文1件夹中的所有文件分别压缩成多个max_size_mb大小的zip文件。"""
     max_size_bytes = max_size_mb * 1024 * 1024  # 将MB转换为字节
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
